@@ -16,7 +16,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 150,
         "density": {
           "enable": true,
           "value_area": 800
@@ -69,7 +69,7 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 1,
         "direction": "right",
         "random": true,
         "straight": false,
@@ -86,7 +86,8 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "repulse",
+          "speed": 2
         },
         "onclick": {
           "enable": true,
@@ -109,7 +110,8 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 60,
+          "speed": 1
         },
         "push": {
           "particles_nb": 4
@@ -122,7 +124,7 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#000000",
+      "background_color": "#13E8E9",
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
