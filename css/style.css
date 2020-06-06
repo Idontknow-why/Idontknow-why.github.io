@@ -36,17 +36,6 @@ html{
 
 body{
   font:normal 75% Arial, Helvetica, sans-serif;
-  overflow: hidden;
-  background-image: url(/bg.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
-}
-
-.header
-{
-  background-image: url(/bg.jpg);
-  -webkit-background-size: cover;
-  background-size: cover;
 }
 
 canvas{
