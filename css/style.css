@@ -89,6 +89,7 @@ canvas{
 	transform: translate(50%,-50%);
 	color: white;
   max-width: 90%;
+  height: 100px;
   font-size: 20px;
 	padding: 2em 3em;
 	text-shadow: 2px 2px 2px #131415;
@@ -105,4 +106,45 @@ canvas{
   background-repeat: no-repeat;
   background-color: black;
   background-size: cover;
+}
+
+#sentence {
+  overflow: hidden;
+  padding: 20px;
+}
+
+#sentence > li, #sentence > ul { display: inline; }
+
+#textSlider {
+  overflow: visible !important;
+  text-align: left;
+  display: inline;
+  position: relative;
+  height: 16px;
+}
+
+.adj {
+  white-space: nowrap;
+  list-style: none;
+  position: absolute;
+  line-height: .3em;
+  -webkit-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  transform: translateY(60px);
+}
+
+.slide-in {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.slide-out {
+  -webkit-transform: translateY(-60px);
+  -ms-transform: translateY(-60px);
+  transform: translateY(-60px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
